@@ -8,8 +8,8 @@ const header = () => {
     <header>
       <div className="container header__container">
       <h1>I'm Ankith Kanderi!</h1>
-      <h5 className="text-light">I'm a Senior @ Georgia Tech. </h5>
-      <h5 className="text-light">I am currently recruiting for full time opportunties beginning in January 2024. </h5>   
+      <h5 className="text-white">I'm a Senior @ Georgia Tech. </h5>
+      <h5 className="text-white">I am currently recruiting for full time opportunties beginning in January 2024. </h5>   
       <Buttons />
       <Socials />
 
