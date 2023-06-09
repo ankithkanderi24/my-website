@@ -105,5 +105,35 @@ a:hover {
   color: var(--color-bg);
 }
 
+/* media queries */
+
+@media screen and (max-width: 1024px) {
+  .container {
+      width: var(--container-width-md);
+  }
+
+  section > h2{
+      margin-top: 6rem;
+  }
+
+  .small-words {
+      display: none
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+      width: var(--container-width-ms);
+  }
+
+  section > h2 {
+      margin-top: 2rem;
+  }
+
+  .small-words {
+      display: none
+  }
+}
+
 
 
