@@ -4,7 +4,7 @@ import Contact from './components/contact/contact'
 import Experience from './components/experience/experience'
 import Footer from './components/footer/footer'
 import Header from './components/header/header'
-import Nav from './components/nav/nav'
+import Nav from './components/Nav/Nav'
 import Projects from './components/projects/projects'
 import Skills from './components/skills/skills'
 
