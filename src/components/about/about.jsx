@@ -7,31 +7,30 @@ import {BiNetworkChart} from 'react-icons/bi';
 
 
 const about = () => {
+
+
   return (
-    <section id = 'about'>
+    <section id='about'>
       <h2>About Me</h2>
-
-      <container className="container about__container">
-        <div className="about__me">
-          <div className="about__me-img">
-          <img src={FootballGame} alt="Football Game" />
-
+      <container className="container about_container">
+        <div className="about_me">
+          <div className="about_me-img">
+            <img src={FootballGame} alt='Football'></img>
           </div>
         </div>
 
-        <div className="about__content">
-          <div className="about__cards">
-            <article className = 'about_card'>
+        <div className="about_content">
+          <div className="about_cards">
+            <article className="about_card">
               <FaUniversity className='about_icon'/>
               <h5>Georgia Institute of Technology</h5>
               <small>University</small>
-              <small></small>
             </article>
 
             <article className="about_card">
               <MdComputer className='about_icon'/>
               <h5>B.S. in Computer Science</h5>
-              <small>Degree</small>
+              <small>Major</small>
             </article>
 
             <article className="about_card">
@@ -40,7 +39,6 @@ const about = () => {
               <small>Concentrations</small>
             </article>
           </div>
-
           <article className='text'>
             <p>
               Hello! I'm a fourth year majoring in Computer Science! Within the field of computer science, my interests lie within machine learning and building complex systems. 
@@ -51,10 +49,9 @@ const about = () => {
             </p>
           </article>
 
-
+          
         </div>
       </container>
-
     </section>
   )
 }
