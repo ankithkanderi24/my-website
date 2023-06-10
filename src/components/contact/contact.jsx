@@ -2,13 +2,25 @@ import React from 'react';
 import './contact.css';
 import {AiOutlineLinkedin} from 'react-icons/ai';
 import {BsTelephone} from 'react-icons/bs';
-import {AiOutlineMail} from 'react-icons/ai'
+import {AiOutlineMail} from 'react-icons/ai';
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 
 
 
 
-const contact = () => {
+const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('websiteEmailService', 'template_i2jahk6', form.current, 'fO0MJZgrxDVma4hDB')
+
+    e.target.reset();
+  };
+
   return (
     <section id = 'contact'>
       <h2>Contact Me!</h2>
@@ -39,7 +51,7 @@ const contact = () => {
         
 
 
-        <form action = "">
+        <form ref={form} onSubmit={sendEmail}>
           <input type = "text" name = 'Name' placeholder='Full Name' required></input>
           <input type = "text" name = 'Email' placeholder='Email' required></input>
           <textarea name = "message" rows = "7" placeholder='Message' required></textarea>
@@ -59,4 +71,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
