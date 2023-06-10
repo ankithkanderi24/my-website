@@ -9,6 +9,7 @@ const header = () => {
   return (
     <header>
       <div className="container header__container">
+        <h1>
       <Typewriter
             onInit={(typewriter) => {
               typewriter
@@ -25,6 +26,7 @@ const header = () => {
               .start()
             }}
           />
+        </h1>
       <h5 className="text-white">I'm a Senior @ Georgia Tech. </h5>
       <h5 className="text-white">I am currently recruiting for full time opportunties beginning in January 2024. </h5>   
       <Buttons />
