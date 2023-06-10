@@ -1,5 +1,6 @@
 import React from 'react'
 import './experience.css'
+import {BsDot} from 'react-icons/bs'
 
 const experience = () => {
   return (
@@ -19,9 +20,9 @@ const experience = () => {
               <li>
               <h3 className = 'technologies'> Technologies Used: AWS, AWS Lambda, Java</h3>
               </li>
-                <li>
-                  Currently working as a member of the Small Business Card Team!
-                </li>
+              <li>
+              Currently working as a member of the Small Business Card Team!
+              </li>
             </ul>
         </article>
 
@@ -35,7 +36,10 @@ const experience = () => {
             </div>
 
             <ul className='job_list'>
-              <li><h3 className = 'technologies'> Technologies Used: Java, Spring Boot, React, SQL</h3></li>
+              <li>
+                <h3 className = 'technologies'> Technologies Used: Java, Spring Boot, React, SQL</h3>
+              </li>
+
                 <li>
                 Employed Spring Boot (Java + Maven) to port data into a SOLR database to encourage members of Fiber Broadband software team to support applications with a more efficient data source
                 </li>

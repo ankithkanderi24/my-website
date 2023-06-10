@@ -53,9 +53,6 @@ const about = () => {
 
 
         </div>
-
-
-
       </container>
 
     </section>
