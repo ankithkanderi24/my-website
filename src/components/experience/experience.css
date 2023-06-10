@@ -1,6 +1,6 @@
-.experience_container {
+.job_container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, .6fr);
     gap: 2rem;
 }
 
