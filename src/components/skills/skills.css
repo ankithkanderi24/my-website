@@ -1,10 +1,10 @@
-.experience_container1 {
+.experience_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
 
-.experience_container1 > div {
+.experience_container > div {
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
@@ -12,15 +12,15 @@
     transition: var(--transition);
 }
 
-.experience_container1 > div:hover {
+.experience_container > div:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
 
-.experience_container1 > div h3 {
+.experience_container > div h3 {
     text-align: center;
-    color: var(--color-primary);
+    color: var(--color-white);
     margin-bottom: 2rem;
 }
 

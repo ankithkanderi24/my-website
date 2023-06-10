@@ -8,11 +8,12 @@ const skills = () => {
     <section id = 'skills'>
       <h2>Skills</h2>
 
-      <div className='container experience_container1'>
+      <div className='container experience_container'>
         <div className = 'experience_languages'>
+
           <h3>Languages + Frameworks</h3>
           <div className = "experience_content">
-          <article className = 'experience_details'>
+            <article className = 'experience_details'>
             <AiTwotoneClockCircle className='experience_details-icon'/>
             <div>
               <h4>Java</h4>
@@ -93,6 +94,8 @@ const skills = () => {
           </article>
           </div>
         </div>
+
+
 
         <div className = 'experience_technologies'>
           <h3>Technologies</h3>
