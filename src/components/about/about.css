@@ -18,7 +18,6 @@
     overflow: hidden;
     /* transform: rotate(10deg); */
     transition: var(--transition);
-    margin-top: 15rem;
 }
 
 
@@ -41,7 +40,7 @@
 .about_card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
-    cursor: defualt;
+    cursor: default;
 }
 
 .about_icon {
