@@ -21,7 +21,22 @@ const experience = () => {
               <h3 className = 'technologies'> Technologies Used: AWS, AWS Lambda, Java</h3>
               </li>
               <li>
-              Currently working as a member of the Small Business Card Team!
+              Designed and built two AWS Lambdas (Python) to reduce infrastructure costs and maintenance overhead for Confirm Purchasing Power (CPP) functionality offered to small business cardholders
+              </li>
+              <li>
+              Engineered six REST endpoints (POST, GET, PATCH)to enable seamless integration with larger suite of purchasing products
+              </li>
+              <li>
+              Architected Python library, including data manipulation functions and data models, to interact with two DynamoDB tables
+              </li>
+              <li>
+              Implemented module to retrieve classified passwords and keys, safely cache data, and encrypt user account information
+              </li>
+              <li>
+              Wrote exhaustive unit tests to validate code functionality while also ensuring adherence to CI/CD standards using Jenkins
+              </li>
+              <li>
+              Worked in Agile environment with ceremonies such as daily stand-up, sprint planning, and sprint retrospectives
               </li>
             </ul>
         </article>
